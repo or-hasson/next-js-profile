@@ -1,0 +1,33 @@
+.about-page {
+  .left-side {
+    margin-top: 10vh;
+
+    color: black;
+    text-align: left;
+  }
+
+  .fadein {
+    opacity: 0;
+
+  }
+
+  .title {
+
+    font-size: 42px;
+    font-weight: bold;
+  }
+
+  .subtitle {
+
+    font-size: 33px;
+  }
+
+  .subsubTitle {
+    font-size: 18px;
+  }
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+}

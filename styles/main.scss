@@ -1,5 +1,7 @@
 @import '/shared/_fonts.scss';
 @import 'index.scss';
+@import '/_header.scss';
+@import '_about.scss';
 
 html,body{
   height:100%;
@@ -12,5 +14,13 @@ html,body{
   font-weight: bold;
   letter-spacing: 1.5px;
   color: #feff26;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.base-page{
+  padding-top: 150px;
 }
 

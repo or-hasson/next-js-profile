@@ -1,6 +1,6 @@
 import React from 'react';
 import ActiveLink from '../ActiveLink';
-import '../../styles/_header.scss'
+
 import {
     Collapse,
     Navbar,
