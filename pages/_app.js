@@ -1,5 +1,5 @@
 import React from 'react';
-import App, { Container } from "next/app";
+import App from "next/app";
 
 //Styles
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,13 +15,9 @@ export default class MyApp extends App{
         return { pageProps };
     }
 
-    render(){
-        const {Component, pageProps } = this.props;
-
-        return (
-            <Container>
-                <Component {...pageProps}/>
-            </Container>
-        )
+    render() {
+        const { Component, pageProps } = this.props
+        return <Component {...pageProps} />
     }
+
 }
