@@ -11,7 +11,7 @@ class Index extends React.Component {
         return (
             <BaseLayout>
                 <Container>
-                    <Button color="danger">Danger</Button>
+
                 </Container>
             </BaseLayout>
         )

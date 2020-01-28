@@ -1,4 +1,4 @@
-
+git
 # dependencies
 /node_modules
 /.pnp
@@ -21,3 +21,13 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .yarn.lock
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/next-js-profile-web.iml
+.idea/vcs.xml
+.idea/watcherTasks.xml
+.next/
+components/SuperComponent.js
+package-lock.json
+yarn.lock
