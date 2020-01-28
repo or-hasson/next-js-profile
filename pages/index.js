@@ -41,25 +41,7 @@ class Index extends React.Component {
                     </div>
                     <Container>
                         <Row>
-                            <Col md="6">
-                                <div className="hero-section">
-                                    <div className={`flipper`}>
-                                        <div className="back">
 
-                                            <div className="hero-section-content">
-
-                                                <div className="hero-section-content-intro">
-                                                    <h2> Full Stack - Or Hasson </h2>
-                                                    Have a look at my site.
-                                                </div>
-                                            </div>
-                                            <div className="shadow-custom">
-                                                <div className="shadow-inner"> </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
                             <Col md="6" className="hero-welcome-wrapper">
                                 <div className="hero-welcome-text">
                                     <h1>
