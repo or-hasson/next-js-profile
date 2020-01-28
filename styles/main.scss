@@ -1,5 +1,16 @@
-@import './shared/_fonts.scss';
+@import '/shared/_fonts.scss';
+@import 'index.scss';
 
 html,body{
-  font-family: 'Montserrat', 'Helvetica',serif;
+  height:100%;
+  width:100%;
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
+
+.self-typed{
+  font-size: 33px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color:whitesmoke;
+}
+
