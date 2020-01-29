@@ -29,7 +29,7 @@ class Index extends React.Component {
             this.setState({
                 isFlipping: !this.state.isFlipping
             });
-        }, 60000);
+        }, 5000);
     }
 
     render() {
@@ -38,6 +38,7 @@ class Index extends React.Component {
             <BaseLayout className="cover">
                 <div className="main-section">
                     <div className="background-image">
+                        <img src="/images/background-index.jpg" />
                     </div>
                     <Container>
                         <Row>
@@ -51,7 +52,7 @@ class Index extends React.Component {
                                                     Have a look at my portfolio and job history.
                                                 </div>
                                             </div>
-                                            <img alt="Guy programming welcome picture" className="image" src="/public/images/section-1.jpg"/>
+                                            <img alt="Guy programming welcome picture" className="image" src="/images/section-1.jpg"/>
                                             <div className="shadow-custom">
                                                 <div className="shadow-inner"> </div>
                                             </div>
@@ -63,7 +64,7 @@ class Index extends React.Component {
                                                     Profesional and top quality service in web development.
                                                 </div>
                                             </div>
-                                            <img alt="Guy programming welcome picture" className="image" src="/public/images/section-2.jpg"/>
+                                            <img alt="Guy programming welcome picture" className="image" src="/images/section-2.jpg"/>
                                             <div className="shadow-custom shadow-custom-2">
                                                 <div className="shadow-inner"> </div>
                                             </div>
